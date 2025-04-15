@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/leave-tracker/static/css/main.0528364c.css",
+    "main.js": "/leave-tracker/static/js/main.f8398cf2.js",
+    "static/js/453.5f774f1e.chunk.js": "/leave-tracker/static/js/453.5f774f1e.chunk.js",
+    "index.html": "/leave-tracker/index.html",
+    "main.0528364c.css.map": "/leave-tracker/static/css/main.0528364c.css.map",
+    "main.f8398cf2.js.map": "/leave-tracker/static/js/main.f8398cf2.js.map",
+    "453.5f774f1e.chunk.js.map": "/leave-tracker/static/js/453.5f774f1e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0528364c.css",
+    "static/js/main.f8398cf2.js"
+  ]
+}
