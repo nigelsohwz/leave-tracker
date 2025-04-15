@@ -15,7 +15,7 @@ const StaffView = () => {
   return (
     <div style={styles.container}>
       <div style={styles.card}>
-        <h2>Check Leave Balance</h2>
+        <h2>Check Leave and MC  Balance</h2>
         <input
           type="text"
           placeholder="Enter your name"
@@ -30,8 +30,8 @@ const StaffView = () => {
         {result && (
           <div style={styles.result}>
             <p><strong>{result.name}</strong></p>
-            <p>Annual Leave: <strong>{result.balance}</strong></p>
-            <p>MC Left: <strong>{result.mc}</strong></p>
+            <p>Annual Leave Remaining: <strong>{result.balance}</strong></p>
+            <p>MC Remaining: <strong>{result.mc}</strong></p>
           </div>
         )}
       </div>
