@@ -13,40 +13,53 @@ const StaffView = () => {
   };
 
   return (
-    <div style={styles.container}>
-      <div style={styles.card}>
-        <h2>Check Leave and MC  Balance</h2>
-        <input
-          type="text"
-          placeholder="Enter your Employee ID"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-          style={styles.input}
-        />
-        <button onClick={handleSearch} style={styles.button}>
-          Search
-        </button>
+    <div style={styles.page}>
+      {/* Centered top heading */}
+      <h1 style={styles.header}>Leave Balance Tracker</h1>
 
-        {result && (
-          <div style={styles.result}>
-            <p><strong>{result.name}</strong></p>
-            <p>Annual Leave Remaining: <strong>{result.balance}</strong></p>
-            <p>MC Remaining: <strong>{result.mc}</strong></p>
-            <p>Updated as of 8 May 2025</p>
-          </div>
-        )}
+      <div style={styles.container}>
+        <div style={styles.card}>
+          <h2>Check Leave and MC Balance</h2>
+          <input
+            type="text"
+            placeholder="Enter your Employee ID"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            style={styles.input}
+          />
+          <button onClick={handleSearch} style={styles.button}>
+            Search
+          </button>
+
+          {result && (
+            <div style={styles.result}>
+              <p><strong>{result.name}</strong></p>
+              <p>Annual Leave Remaining: <strong>{result.balance}</strong></p>
+              <p>MC Remaining: <strong>{result.mc}</strong></p>
+              <p>Updated as of 8 May 2025</p>
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );
 };
 
 const styles = {
+  page: {
+    backgroundColor: "#f2f2f2",
+    minHeight: "100vh",
+  },
+  header: {
+    textAlign: "center",
+    marginTop: "30px",
+    fontSize: "28px",
+    color: "#333",
+  },
   container: {
     display: "flex",
     justifyContent: "center",
-    paddingTop: "60px", // pushed down from top
-    backgroundColor: "#f2f2f2",
-    minHeight: "100vh",
+    paddingTop: "30px",
   },
   card: {
     background: "#fff",

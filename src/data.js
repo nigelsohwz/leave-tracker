@@ -1,5 +1,5 @@
 export const leaveData = [
-  { name: "20220034", balance: 2, mc: 13 }, //Jessin
+  { name: "20220034", balance: 5, mc: 13 }, //Jessin
   { name: "20230048", balance: 12.5, mc: 12 }, //Xueqi
   { name: "20060001", balance: 22, mc: 14 }, //leiyu
   { name: "20220030", balance: 9, mc: 13 }, //Mengyuan
@@ -11,7 +11,7 @@ export const leaveData = [
   { name: "20230060", balance: 15.5, mc: 14 }, // Mingrui
   { name: "20240065", balance: 15, mc: 11 }, //chiewseng
   { name: "20240070", balance: 3, mc: 11.5 }, //Guo Qian
-  { name: "20240072", balance: 8, mc: 9.5 }, //Zhengyang
+  { name: "20240072", balance: 9, mc: 9.5 }, //Zhengyang
   { name: "20240073", balance: 9, mc: 14 },// KangYing
   { name: "20240076", balance: 17, mc: 6 },//Kimberley
   { name: "20240075", balance: 19.5, mc: 5 }, //Benjamin
