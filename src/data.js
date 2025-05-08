@@ -10,12 +10,12 @@ export const leaveData = [
   { name: "20230059", balance: 11, mc: 13.5 }, //Joshua
   { name: "20230060", balance: 15.5, mc: 14 }, // Mingrui
   { name: "20240065", balance: 15, mc: 11 }, //chiewseng
-  { name: "20240070", balance: 3, mc: 11.5 }, //Guo Qian
+  { name: "20240070", balance: 1, mc: 11.5 }, //Guo Qian
   { name: "20240072", balance: 9, mc: 9.5 }, //Zhengyang
   { name: "20240073", balance: 9, mc: 14 },// KangYing
   { name: "20240076", balance: 17, mc: 6 },//Kimberley
   { name: "20240075", balance: 19.5, mc: 5 }, //Benjamin
-  { name: "20240080", balance: 9, mc: 11 }, //Hsin Yu
+  { name: "20240080", balance: 9, mc: 10 }, //Hsin Yu
   { name: "20240082", balance: 10, mc: 9 }, //Miao En
   { name: "20240077", balance: 20, mc: 13 }, //Wu nan
   { name: "20240076", balance: 11, mc: 14 }, // zhanghui
