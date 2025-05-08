@@ -18,7 +18,7 @@ const StaffView = () => {
         <h2>Check Leave and MC  Balance</h2>
         <input
           type="text"
-          placeholder="Enter your name"
+          placeholder="Enter your Employee ID"
           value={name}
           onChange={(e) => setName(e.target.value)}
           style={styles.input}
