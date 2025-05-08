@@ -23,7 +23,8 @@ export const leaveData = [
   { name: "20250085", balance: 11, mc: 14 }, //Ken Fui
   { name: "20250086", balance: 3, mc: 14 }, //Lin Chunbo 
   { name: "20250087", balance: 15, mc: 14 }, //Nigel
-  { name: "20250088", balance: 14, mc: 14 } // Ginny
+  { name: "20250088", balance: 14, mc: 14 }, // Ginny
+  { name: "20258888", balance: 10, mc: 8 } // Demo
 
   ,
 ];
