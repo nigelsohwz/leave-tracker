@@ -13,7 +13,7 @@ export const leaveData = [
   { name: "20240070", balance: 1, mc: 11.5 }, //Guo Qian
   { name: "20240072", balance: 9, mc: 9.5 }, //Zhengyang
   { name: "20240073", balance: 9, mc: 14 },// KangYing
-  { name: "20240076", balance: 17, mc: 6 },//Kimberley
+  { name: "20240076", balance: 17, mc: 5 },//Kimberley
   { name: "20240075", balance: 19.5, mc: 5 }, //Benjamin
   { name: "20240080", balance: 9, mc: 10 }, //Hsin Yu
   { name: "20240082", balance: 10, mc: 9 }, //Miao En
