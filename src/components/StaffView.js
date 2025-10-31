@@ -36,7 +36,7 @@ const StaffView = () => {
               <p><strong>{result.name}</strong></p>
               <p>Annual Leave Remaining: <strong>{result.balance}</strong></p>
               <p>MC Remaining: <strong>{result.mc}</strong></p>
-              <p>Updated as of 9 September 2025</p>
+              <p>Updated as of 31 October 2025</p>
             </div>
           )}
         </div>
