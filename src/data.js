@@ -21,7 +21,7 @@ export const leaveData = [
   { name: "20240078", balance: 13, mc: 14 }, // zhanghui
   { name: "20240083", balance: 0, mc: 0 }, //Xiao Xuan
   { name: "20250085", balance: 6, mc: 14 }, //Ken Fui
-  { name: "20250086", balance: 1, mc: 13 }, //Lin Chunbo 
+  { name: "20250086", balance: 3, mc: 13 }, //Lin Chunbo 
   { name: "20250087", balance: 8, mc: 13 }, //Nigel
   { name: "20250088", balance: 7, mc: 13 }, // Ginny
   { name: "20250089", balance: 4.5, mc: 13 }, // Tabitha
